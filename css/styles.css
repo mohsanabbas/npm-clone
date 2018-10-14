@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding: 15px;
+    height: 25px;
+  }
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+  }
+  .top-left {
+      float: left;
+      font-weight: bold;
+  }
+  .heart {
+      width: 15px;
+      color: black;
+      padding:30px 40px; 
+  }
+  .top-links{
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  #header-logo{
+      background-color:rgb(32, 101, 136);
+      
+  }
+  #logo{
+      float: left;
+      width: 75px;
+      height: 40;
+      padding:0 12px 0 12px;
+  }
+  #search-bar{
+     
+      
+      width: 74%;
+      height: 25px;
+      border: none;
+      padding: 5px 0 5px 50px;
+      background: rgb(31, 92, 111);
+      margin-right: 0%;
+
+  }
+  #bear-logo{
+    float: right;
+    width: 20px;
+    height: 25px;
+    padding: 5px 5px 5px 5px;
+    margin: 0 auto;
+    background-color: rgb(32, 101, 136);
+  }
+
+  input::placeholder {
+    color:grey;
+  }
+  label, input {
+    font-family: sans-serif;
+  }
+  #handle{
+      width:20px;
+      height: 25px;
+      border: none;
+      padding: 5px 5px 5px 5px;
+      background: rgb(31, 92, 111);
+      margin: 0;
+  }
+  #header-logo span {
+      color: #ffffff;
+      font-size: small;
+  }
+.acs-link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size:small; 
+    padding: 5px;
+}
+.container{
+    background-color: rgb(32, 101, 136);
+    overflow: hidden;
+}
+#header-content{
+    
+    margin : 0 280px 60px 90px;
+    width: 35%;
+    padding: 80px 80px;
+    background-color:rgb(32, 101, 136);
+    color: #ffffff;
+    font-size: larger;
+    font-weight: lighter;
+    text-align: left;
+}
+.link-btn{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(240, 146, 51);
+    padding: 15px 85px 15px 85px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
